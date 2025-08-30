@@ -1,6 +1,6 @@
 //Maya ASCII 2026 scene
 //Name: unitOneChallenge.ma
-//Last modified: Fri, Aug 22, 2025 08:30:00 PM
+//Last modified: Fri, Aug 22, 2025 08:36:40 PM
 //Codeset: 1252
 requires maya "2026";
 requires "mtoa" "5.5.3";
@@ -10,23 +10,23 @@ fileInfo "product" "Maya 2026";
 fileInfo "version" "2026";
 fileInfo "cutIdentifier" "202507081222-4d6919b75c";
 fileInfo "osv" "Windows 11 Home v2009 (Build: 26100)";
-fileInfo "UUID" "401FF695-4CB7-EB24-FDA2-EA86E6056809";
+fileInfo "UUID" "7EDBD91F-4D9C-0674-45FC-E38B73754F9C";
 createNode transform -s -n "persp";
 	rename -uid "CB04E45B-4722-5E28-A59A-2E97DB974A2E";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -78.73595172159132 45.186883984969541 -4.4508470429838454 ;
-	setAttr ".r" -type "double3" -20.738352728586232 3507.8000000003094 359.99999999892441 ;
-	setAttr ".rp" -type "double3" -1.1712852909795402e-14 6.2172489379008766e-15 -2.2737367544323206e-13 ;
-	setAttr ".rpt" -type "double3" 1.2403262043129811e-13 -6.1063359888687629e-15 4.255122403780775e-13 ;
+	setAttr ".t" -type "double3" 39.378594160080105 51.643998861312795 -38.450470685959075 ;
+	setAttr ".r" -type "double3" 144.73561031724537 45.000000000000014 179.99999999999997 ;
+	setAttr ".rp" -type "double3" 3.5527136788005009e-15 0 0 ;
+	setAttr ".rpt" -type "double3" -1.0591655000951992e-13 7.5004005993649222e-14 2.0495340736926887e-13 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "9F2E21EE-463F-83FD-888E-198AFA09BE8C";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999979;
-	setAttr ".coi" 83.223779083528427;
+	setAttr ".coi" 67.196783954053998;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
-	setAttr ".tp" -type "double3" -1.0468992573781968 3.4200855010714148 -1.4863835883514653 ;
+	setAttr ".tp" -type "double3" 0.58251285552976384 12.847917556762717 0.3456106185913228 ;
 	setAttr ".hc" -type "string" "viewSet -p %camera";
 createNode transform -s -n "top";
 	rename -uid "6F269496-4AA0-50CB-B4C7-D69FDB907F80";
